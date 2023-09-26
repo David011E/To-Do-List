@@ -10,24 +10,24 @@ window.addEventListener('load', function() {
 
         // Check if the task is not empty
         if (task) {
-            let task_el = document.createElement('div');
-            task_el.classList.add('task');
+            let task_element = document.createElement('div');
+            task_element.classList.add('task');
 
-            let task_content_el = document.createElement('div');
-            task_content_el.classList.add('content');
+            let task_content_element = document.createElement('div');
+            task_content_element.classList.add('content');
 
-            task_el.appendChild(task_content_el);
+            task_element.appendChild(task_content_element);
 
-            let task_input_el = document.createElement('input');
-            task_input_el.classList.add('text');
-            task_input_el.type = 'text';
-            task_input_el.value = task;
-            task_input_el.setAttribute('readonly', 'readonly');
+            let task_input_element = document.createElement('input');
+            task_input_element.classList.add('text');
+            task_input_element.type = 'text';
+            task_input_element.value = task;
+            task_input_element.setAttribute('readonly', 'readonly');
 
-            task_content_el.appendChild(task_input_el);
+            task_content_element.appendChild(task_input_element);
 
-            let task_actions_el = document.createElement('div');
-            task_actions_el.classList.add('actions');
+            let task_actions_element = document.createElement('div');
+            task_actions_element.classList.add('actions');
 
             let task_edit_el = document.createElement('button');
             task_edit_el.classList.add('edit');
@@ -37,12 +37,12 @@ window.addEventListener('load', function() {
             task_delete_el.classList.add('delete');
             task_delete_el.innerText = 'Delete';
 
-            task_actions_el.appendChild(task_edit_el);
-            task_actions_el.appendChild(task_delete_el);
+            task_actions_element.appendChild(task_edit_el);
+            task_actions_element.appendChild(task_delete_el);
 
-            task_el.appendChild(task_actions_el);
+            task_element.appendChild(task_actions_element);
 
-            list_el.appendChild(task_el);
+            list_el.appendChild(task_element);
 
             input.value = '';
 
