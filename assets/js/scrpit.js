@@ -1,5 +1,5 @@
 window.addEventListener('load', function() {
-    let form = document.getElementById("new-task-form");
+    let form = document.querySelector(".new-task-form");
     let input = document.getElementById("new-task-input");
     let list_el = document.getElementById("tasks");
 
