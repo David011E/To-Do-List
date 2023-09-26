@@ -129,7 +129,7 @@ main {
 }
 
 .task .content .text:not(:read-only) {
-    color: #fd97a8;
+    color: #ff97dc;
 }
 
 .task .actions {
