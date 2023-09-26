@@ -104,3 +104,70 @@ main {
     color:  #000000;
     margin-bottom: 1rem;
 }
+
+#tasks .task {
+    display: flex;
+    justify-content: space-between;
+    background-color: #FFFFFF;
+    padding: 1rem;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+    position: relative;
+    cursor: pointer; /* Add pointer cursor to indicate it's clickable */
+}
+
+.task .content {
+    flex: 1 1 0%;
+}
+
+.task .content .text {
+    color: #000000;
+    font-size: 1.125rem;
+    width: 100%;
+    display: block;
+    transition: 0.4s;
+}
+
+.task .content .text:not(:read-only) {
+    color: #fd97a8;
+}
+
+.task .actions {
+    display: flex;
+    margin: 0 -0.5rem;
+}
+
+.task .actions button {
+    cursor: pointer;
+    margin: 0 0.5rem;
+    font-size: 1.125rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: 0.4s;
+}
+
+.task .actions button:hover {
+    opacity: 0.8;
+}
+
+.task .actions button:active {
+    opacity: 0.6;
+}
+
+.task .actions .edit {
+    background-image: linear-gradient(to right, #fd97a8, #b818b8);
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.task .actions .delete {
+    color: crimson;
+}
+
+#task::before {
+    content: '';
+    position: absolute;
+    height: 28px;
+    width: 28px;
+    border-radius: 50px;
+}
