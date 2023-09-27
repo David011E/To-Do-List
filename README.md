@@ -30,6 +30,8 @@ Welcome to our To-Do List Manager! This application is designed to help you stay
 
 6. [Technology Used](#technology-used)  
     * [Language Used](#language-used)
+    * [Deployment](#deployment)
+
 
     ## **UX Development**
 
@@ -107,3 +109,30 @@ Please view our [TESTING.md](TESTING.md) file for more information on the testin
 - The photos for the Favicon and icon in the header are from This Open Source site  [icons8](https://icons8.com/).
 
 ---
+
+## **Technology Used**
+
+### **Language Used**
+
+HTML, CSS, Javascript.
+
+* [mockflow wireframes](https://www.mockflow.com/) - To create wireframes.
+
+* [Git](https://git-scm.com/) - For version control.
+
+* [Github](https://github.com/)- To save and store the files for the website and for deployment.
+
+* [Google DevTools](https://developers.google.com/web/tools) - To troubleshoot and test features, solve issues with responsiveness and styling.
+
+* [Am I Responsive?](http://ami.responsivedesign.is/) To show the website image on a range of devices.
+
+* [Google fonts](https://fonts.google.com/) - used to import the font used on the site.
+
+## Deployment
+
+- The site was deployed to GitHub pages. The steps to deploy are as follows: 
+  - In the GitHub repository, navigate to the Settings tab .
+  - From the source section drop-down menu, select the Master Branch.
+  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
+
+The live link can be found here - https://david011e.github.io/To-Do-List/
