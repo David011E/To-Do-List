@@ -30,3 +30,29 @@ Welcome to our To-Do List Manager! This application is designed to help you stay
 
 6. [Technology Used](#technology-used)  
     * [Language Used](#language-used)
+
+    ## **UX Development**
+
+## **Design**
+
+### **Colour Scheme**
+
+The selected color scheme was thoughtfully chosen to convey a distinct visual identity that aligns with the project's overall design philosophy, creating a cohesive and engaging user experience.
+
+![Found in Translation Color Palette](assets/images/coolors.png)
+
+### **Typography**
+
+As the main focus of the site is the messages that people are sending, I have only used one font throughout the site to prevent users becoming overwhelmed.
+
+Fira sans was imported from google fonts. It is a sans-serif font which is accessible friendly.
+
+![Open Sans Font](assets/images/google_fonts.png)
+
+### **Wireframes**
+
+The entire site's wireframe was done using [mockflow wireframes](https://www.mockflow.com/).This depicts the site on a desktop and a mobile device.
+
+[To Do List Without Tasks Wireframes](assets/images/To-Do-List-Without-Tasks-Wireframes.png)
+
+[To Do List With Tasks Wireframes](assets/images/To-Do-List-With-Tasks-Wireframes.png)
