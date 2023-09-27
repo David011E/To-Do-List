@@ -93,3 +93,17 @@ The site has been designed to be fully responsive, from mobile all the way up to
 ## Testing
 
 Please view our [TESTING.md](TESTING.md) file for more information on the testing undertaken.
+
+---
+
+## Credits 
+
+### Content
+
+- Fonts for this project were used from [Google fonts](https://fonts.google.com/).
+
+### Media
+
+- The photos for the Favicon and icon in the header are from This Open Source site  [icons8](https://icons8.com/).
+
+---
