@@ -56,3 +56,36 @@ The entire site's wireframe was done using [mockflow wireframes](https://www.moc
 [To Do List Without Tasks Wireframes](assets/images/To-Do-List-Without-Tasks-Wireframes.png)
 
 [To Do List With Tasks Wireframes](assets/images/To-Do-List-With-Tasks-Wireframes.png)
+
+---
+
+## Features
+
+### **General Features On The To-Do List Page**
+
+The site has been designed to be fully responsive, from mobile all the way up to desktop.
+
+
+- __Header__
+
+- This section contains the name and the icon of the To-Do List website.
+
+![Header](assets/images/To-Do-List-header.png)
+
+- __Input and Submit Section__
+
+- This section contains a placeholder for users to type what they want to add to the To-Do list .
+
+- And it also contains a submit button when added text into the placeholder and press add it will add it to the To-Do list.
+
+![Input and Submit Section](assets/images/To-Do-List-Input-and-Submit.png)
+
+- __Task List Section__
+
+- This section contains where added tasks will be displayed.
+
+- And also contains two buttons that allows users to edit and delete content.
+
+![Task List Section](assets/images/Task-List-Section.png)
+
+---
