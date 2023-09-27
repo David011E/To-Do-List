@@ -195,4 +195,16 @@ main {
         margin-top: 15px;
         margin-right: 15px;
     }
+
+    .task .actions button {
+        font-size: 0.8rem;
+        padding: 0.2rem 0.5rem;
+        margin-top: 5px;
+        margin-right: 10px;
+
+    }
+
+    .task .content .text {
+        font-size: 1rem;
+    }
 }
