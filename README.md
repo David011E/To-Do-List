@@ -89,3 +89,7 @@ The site has been designed to be fully responsive, from mobile all the way up to
 ![Task List Section](assets/images/Task-List-Section.png)
 
 ---
+
+## Testing
+
+Please view our [TESTING.md](TESTING.md) file for more information on the testing undertaken.
