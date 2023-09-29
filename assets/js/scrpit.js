@@ -46,27 +46,37 @@ window.addEventListener('load', function() {
 
             input.value = '';
 
-            list_el.addEventListener('click', function(event) {
-                if (event.target.classList.contains('edit')) {
-                    let task_el = event.target.closest('.task');
-                    let task_input_el = task_el.querySelector('.text');
-            
-                    if (event.target.innerText.toLowerCase() === "edit") {
-                        event.target.innerText = "Save";
-                        task_input_el.removeAttribute("readonly");
-                        task_input_el.focus();
-                    } else {
-                        event.target.innerText = "Edit";
-                        task_input_el.setAttribute("readonly", "readonly");
-                    }
-                } else if (event.target.classList.contains('delete')) {
-                    let task_el = event.target.closest('.task');
-                    list_el.removeChild(task_el);
-                }
-            });
+            actions(list_el);
+
         } else {
             // Display an alert when the task is empty
             alert('Please enter a task before submitting.');
         }
     });
 });
+
+function actions(list_el) {
+    
+    list_el.addEventListener('click', function(event) {
+        if (event.target.classList.contains('edit')) {
+            let task_el = event.target.closest('.task');
+            let task_input_el = task_el.querySelector('.text');
+    
+            if (event.target.innerText.toLowerCase() === "edit") {
+                event.target.innerText = "Save";
+                task_input_el.removeAttribute("readonly");
+                task_input_el.focus();
+            } else {
+                event.target.innerText = "Edit";
+                task_input_el.setAttribute("readonly", "readonly");
+            }
+        } else if (event.target.classList.contains('delete')) {
+            let task_el = event.target.closest('.task');
+            
+            // Check if the task_el is a direct child of list_el before removing it
+            if (list_el.contains(task_el)) {
+                list_el.removeChild(task_el);
+            }
+        }
+    });    
+}
