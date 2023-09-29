@@ -50,7 +50,11 @@ window.addEventListener('load', function() {
 
         } else {
             // Display an alert when the task is empty
-            alert('Please enter a task before submitting.');
+            Swal.fire({
+                icon: 'error',
+                title: 'Oops...',
+                text: 'Please enter a task before submitting.',
+              })
         }
     });
 });
