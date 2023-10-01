@@ -29,6 +29,8 @@ The page has been inspected using google chrome developer tools & Firefox inspec
 
 * [style.css CSS Validation](https://jigsaw.w3.org/css-validator/validator) - Pass
 
+* [script.js JS Validation](https://jshint.com/) - Pass
+
 ---
 
 ## MANUAL TESTING
