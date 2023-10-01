@@ -98,9 +98,9 @@ function actions(list_el) {
                     'Deleted!',
                     'Your task has been deleted.',
                     'success'
-                  )
+                  );
                 }
-              })
+              });
             
         }
     });    
