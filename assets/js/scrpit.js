@@ -26,13 +26,16 @@ window.addEventListener('load', function() {
 
             task_content_element.appendChild(task_input_element);
 
+            // creates div for actions 
             let task_actions_element = document.createElement('div');
             task_actions_element.classList.add('actions');
 
+            // Creates a edit button
             let task_edit_el = document.createElement('button');
             task_edit_el.classList.add('edit');
             task_edit_el.innerText = 'Edit';
 
+            // Creates a delete button
             let task_delete_el = document.createElement('button');
             task_delete_el.classList.add('delete');
             task_delete_el.innerText = 'Delete';
@@ -46,6 +49,7 @@ window.addEventListener('load', function() {
 
             input.value = '';
 
+            // calls action function
             actions(list_el);
 
         } else {
@@ -58,6 +62,10 @@ window.addEventListener('load', function() {
         }
     });
 });
+
+/**
+ * Function for actions are for the edit and delete button.
+ */
 
 function actions(list_el) {
     
@@ -76,6 +84,7 @@ function actions(list_el) {
             }
         } else if (event.target.classList.contains('delete')) {
 
+            // Sweetalert
             Swal.fire({
                 title: 'Are you sure?',
                 text: "You won't be able to revert this!",
@@ -94,6 +103,7 @@ function actions(list_el) {
             if (list_el.contains(task_el)) {
                 list_el.removeChild(task_el);
             }
+            // Sweetalert
                   Swal.fire(
                     'Deleted!',
                     'Your task has been deleted.',
