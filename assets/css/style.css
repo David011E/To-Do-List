@@ -194,6 +194,7 @@ main {
         transition: 0.4s;
         margin-top: 15px;
         margin-right: 15px;
+        margin-left: 15px;
     }
 
     .task .actions button {
